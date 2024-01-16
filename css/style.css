@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: black;
+    margin: auto;
+    background-color: #3affff;
+    min-height: 1100px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto 20px;
+}
+
+.main-list-outer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    width: 60%;
+}
+
+.user-title-block, .user-list, .user-block {
+    background-color: rgb(250, 211, 94);
+    color: black;
+    padding: 10px 0;
+}
+
+.user-list {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.user-block  {
+    /*display: flex;*/
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 60%;
+    margin: 1px auto;
+}
+
+.post-details, .user-details {
+    display: grid;
+    justify-items: center;
+    margin: 5px auto;
+    width: 60%;
+}
+
+.user-details-block {
+    text-align: left;
+    width: 55%;
+    background-color: rgb(250, 211, 94);
+    border-radius: 10px;
+    padding: 5px 5%;
+
+}
+
+.user-posts-title {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin: 30px auto;
+    width: 90vw;
+    row-gap: 30px;
+}
+
+.user-title {
+    align-content: center;
+    padding: 15px;
+    border: dotted 1px black;
+    min-width: 21vw;
+    min-height: 30vh;
+    background-color: rgb(250, 211, 94);
+}
+
+#comments {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    width: 90vw;
+    row-gap: 30px;
+    margin: 30px auto;
+}
+.btn-normal {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.btn-large {
+    width: 90vw;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.btn-post-div {
+    display: flex;
+    justify-content: center;
+}
+.post-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16vw;
+    border: dashed 1px black;
+    padding: 8px;
+    min-height: 120px;
+}
+
+.headingH2 {
+    margin: 60px auto 25px;
+    text-align: center;
+}
+
+#postInfo {
+    margin: auto;
+}
+
+.first-word {
+    font-weight: bolder;
+    color: #d70101
+}
+
+.first-word-italic {
+    font-weight: bolder;
+    /*color: #d70101*/
+    font-style: italic;
+}
+
+#userDetails {
+    display: grid;
+    margin: 30px auto;
+    width: 60vw;
+    justify-items: center;
+}
+
+/************************************************** HEADER *******************************************************/
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    margin: 20px auto 0 auto;
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li  {
+    font-weight: 400;
+    padding: 10px 30px;
+    background-color: rgb(250, 211, 94);
+    border-radius: 5px;
+}
+
+a {
+    text-transform: uppercase;
+}
